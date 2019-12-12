@@ -19,8 +19,9 @@ namespace ConsoleApp2
                 using (StreamReader sr = File.OpenText(path_config))
                 {
                     //string m = " ";
+                    //string n = "";
                     string s = "";
-                    while ((s = sr.ReadLine()) != null)
+                    while ((s = sr.ReadLine()  != null)
                     {
                         path_directory = s;
                         
