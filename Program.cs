@@ -18,6 +18,7 @@ namespace ConsoleApp2
             {
                 using (StreamReader sr = File.OpenText(path_config))
                 {
+                    //string s = " ";
                     string s = "";
                     while ((s = sr.ReadLine()) != null)
                     {
